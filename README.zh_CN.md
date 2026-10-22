@@ -8,10 +8,8 @@
 
 [English](README.md) | **简体中文**
 
-<p align="center"><img src="docs/banner.png" alt="cert-tool — HTTPS 证书与 Nginx 反向代理" width="840"></p>
-
 <p align="center"><img src="docs/demo.gif" alt="演示：安装 → 加站点 → 验证 → 泛域名与声明式 apply → 无侵入卸载" width="800"></p>
-<p align="center"><sub>演示 — 安装 · 初始化 · 一条命令开通 HTTPS · 泛域名 + 声明式 apply · 无侵入卸载（约 1 分钟，<a href="docs/demo.mp4">MP4</a>）</sub></p>
+<p align="center"><sub>安装 · 初始化 · 一条命令开通 HTTPS · 泛域名 + 声明式 apply · 无侵入卸载（约 1 分钟，<a href="docs/demo.mp4">MP4</a>）</sub></p>
 
 `cert` 是一个单文件 CLI 工具，面向 Linux 服务器（VPS、家庭实验室、自建服务等场景）。它**内置 ACME 客户端**，把整套 HTTPS 工作流自动化：[Let's Encrypt](https://letsencrypt.org) 证书申请（HTTP-01 与 DNS-01）、Nginx 反向代理生成、WebSocket 支持、无人值守续期，以及声明式、幂等的站点管理。
 
