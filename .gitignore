@@ -1,0 +1,27 @@
+# Build artifacts
+/cert
+/cert-linux
+/cert-linux-*
+/dist/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test & coverage files
+*.test
+*.out
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editors & IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+/cert-tool
