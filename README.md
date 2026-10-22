@@ -8,6 +8,8 @@
 
 **English** | [简体中文](README.zh_CN.md)
 
+<p align="center"><img src="docs/banner.png" alt="cert-tool — HTTPS certificates & Nginx reverse proxies" width="840"></p>
+
 `cert` is a single-binary CLI for Linux servers (VPS, home labs, self-hosted services). It automates the whole HTTPS workflow with a **built-in ACME client**: certificate issuance via [Let's Encrypt](https://letsencrypt.org) (HTTP-01 and DNS-01), Nginx reverse proxy generation, WebSocket support, unattended renewal and declarative, idempotent site management.
 
 ---
